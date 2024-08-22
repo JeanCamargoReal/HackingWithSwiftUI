@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ObservableConformance: View {
+struct ObservableConformanceExemple: View {
     var body: some View {
         Button("Encode Taylor", action: encodeTaylor)
     }
@@ -30,5 +30,5 @@ class User: Codable {
 }
 
 #Preview {
-    ObservableConformance()
+    ObservableConformanceExemple()
 }

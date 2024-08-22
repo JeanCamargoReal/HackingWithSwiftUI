@@ -9,7 +9,7 @@ import SwiftUI
 
 import SwiftUI
 
-struct FormView: View {
+struct FormExemple: View {
     @State private var username = ""
     @State private var email = ""
 
@@ -36,5 +36,5 @@ struct FormView: View {
 
 
 #Preview {
-    FormView()
+    FormExemple()
 }
