@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A744F2BC2C77B63600E1ECF9 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A744F2BB2C77B63600E1ECF9 /* FormView.swift */; };
 		A7B7B5232C469E85007B64ED /* CupcakeCornerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B7B5222C469E85007B64ED /* CupcakeCornerApp.swift */; };
 		A7B7B5252C469E85007B64ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B7B5242C469E85007B64ED /* ContentView.swift */; };
 		A7B7B5272C469E86007B64ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7B7B5262C469E86007B64ED /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A744F2BB2C77B63600E1ECF9 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
 		A7B7B51F2C469E85007B64ED /* CupcakeCorner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CupcakeCorner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7B7B5222C469E85007B64ED /* CupcakeCornerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupcakeCornerApp.swift; sourceTree = "<group>"; };
 		A7B7B5242C469E85007B64ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,9 +34,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A744F2BA2C77B5FC00E1ECF9 /* Exemples */ = {
+			isa = PBXGroup;
+			children = (
+				A744F2BB2C77B63600E1ECF9 /* FormView.swift */,
+			);
+			path = Exemples;
+			sourceTree = "<group>";
+		};
 		A7B7B5162C469E85007B64ED = {
 			isa = PBXGroup;
 			children = (
+				A744F2BA2C77B5FC00E1ECF9 /* Exemples */,
 				A7B7B5212C469E85007B64ED /* CupcakeCorner */,
 				A7B7B5202C469E85007B64ED /* Products */,
 			);
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A744F2BC2C77B63600E1ECF9 /* FormView.swift in Sources */,
 				A7B7B5252C469E85007B64ED /* ContentView.swift in Sources */,
 				A7B7B5232C469E85007B64ED /* CupcakeCornerApp.swift in Sources */,
 			);
