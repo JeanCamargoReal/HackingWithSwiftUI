@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A74585932C8CBF1000DDEE6D /* TextEditorExemple.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74585922C8CBF1000DDEE6D /* TextEditorExemple.swift */; };
+		A74585952C8CC01100DDEE6D /* TextFieldExemple.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74585942C8CC01100DDEE6D /* TextFieldExemple.swift */; };
 		A79122CF2C839BEB0099773B /* BookwormApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79122CE2C839BEB0099773B /* BookwormApp.swift */; };
 		A79122D12C839BEB0099773B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79122D02C839BEB0099773B /* ContentView.swift */; };
 		A79122D32C839BED0099773B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A79122D22C839BED0099773B /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A74585922C8CBF1000DDEE6D /* TextEditorExemple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorExemple.swift; sourceTree = "<group>"; };
+		A74585942C8CC01100DDEE6D /* TextFieldExemple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExemple.swift; sourceTree = "<group>"; };
 		A79122CB2C839BEB0099773B /* Bookworm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bookworm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A79122CE2C839BEB0099773B /* BookwormApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookwormApp.swift; sourceTree = "<group>"; };
 		A79122D02C839BEB0099773B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				A79122DD2C839F1A0099773B /* PushButtonExemple.swift */,
+				A74585922C8CBF1000DDEE6D /* TextEditorExemple.swift */,
+				A74585942C8CC01100DDEE6D /* TextFieldExemple.swift */,
 			);
 			path = Exemples;
 			sourceTree = "<group>";
@@ -150,6 +156,8 @@
 			files = (
 				A79122D12C839BEB0099773B /* ContentView.swift in Sources */,
 				A79122CF2C839BEB0099773B /* BookwormApp.swift in Sources */,
+				A74585952C8CC01100DDEE6D /* TextFieldExemple.swift in Sources */,
+				A74585932C8CBF1000DDEE6D /* TextEditorExemple.swift in Sources */,
 				A79122DE2C839F1A0099773B /* PushButtonExemple.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +300,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -321,6 +330,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
