@@ -17,6 +17,14 @@ struct ConfimationDialogExample: View {
         }
         .frame(width: 300, height: 300)
         .background(backgroundColor)
+        .confirmationDialog("Change background", isPresented: $showingConfirmation) {
+            Button("red") { backgroundColor = .red }
+            Button("green") { backgroundColor = .green }
+            Button("blue") { backgroundColor = .blue }
+            Button("Cancel", role: .cancel) { }
+        } message: {
+            Text("Select a new color")
+        }
     }
 
 }
